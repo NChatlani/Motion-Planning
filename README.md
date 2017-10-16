@@ -1,2 +1,2 @@
 # Motion-Planning
-CMS 430 (Artificial Intelligence) project utilizing A* search
+Motion Planning is a class project completed for CMS 430 (Artificial Intelligence). The program generates a 2D grid world, and a robot whose goal is to move from the start position in the upper left to the end position in the bottom right, while moving around any obstacles in its way. An implementation of A* search allows the robot to discover the shortest path to the end position, or discover that no possible path exists. The *Manhattan distance* from the robot's current position to the end position is used as the heuristic for this function.
